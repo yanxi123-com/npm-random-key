@@ -1,0 +1,15 @@
+{
+  "name": "generate-key",
+  "version": "0.0.6",
+  "description": "Generating random strings for NodeJS",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:vural/nodejs-random-string.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "coffee-script"   : "1.6.2"
+  },
+  "author": "vural",
+  "license": "BSD"
+}
