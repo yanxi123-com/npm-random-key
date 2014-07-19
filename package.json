@@ -1,6 +1,6 @@
 {
   "name": "random-key",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generating random strings for NodeJS",
   "main": "index.js",
   "repository": {
