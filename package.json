@@ -8,8 +8,21 @@
     "type": "git"
   },
   "dependencies": {
-    "coffee-script"   : "1.7.1"
+    "coffee-script": "1.7.1"
   },
   "author": "yanxi",
-  "license": "BSD"
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/yanxi-com/nodejs-random-key/issues"
+  },
+  "homepage": "https://github.com/yanxi-com/nodejs-random-key",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "base62",
+    "base30",
+    "human-key"
+  ]
 }
