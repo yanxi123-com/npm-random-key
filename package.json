@@ -24,8 +24,5 @@
     "base62",
     "base30",
     "human-key"
-  ],
-  "devDependencies": {
-    "coffee-script": "^1.7.1"
-  }
+  ]
 }

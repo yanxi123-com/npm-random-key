@@ -1,3 +1,5 @@
-require("coffee-script");
+require("coffee-script/register");
 
-module.exports = require("./lib/generate.coffee");
+var randomKey = module.exports = require("./lib/generate.coffee");
+
+console.log(randomKey.generate());
