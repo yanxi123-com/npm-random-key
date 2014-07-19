@@ -15,10 +15,9 @@ Generate random digits, with given length. optional keys: 0-9
 * len: the length of the generated string, default is 16
 
 ### generateBase30([len])
-Generate random string that is , with given length.
+Generate random string that is eady to read by human, with given length.
 
 optional keys: 1-9, A-Z exclude(E, G, I, J, O) for human read
-
 * len: the length of the generated string, default is 16
 
 ## Usage for JS

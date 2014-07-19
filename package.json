@@ -1,6 +1,6 @@
 {
   "name": "random-key",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generating random strings for NodeJS",
   "main": "index.js",
   "repository": {
@@ -24,5 +24,8 @@
     "base62",
     "base30",
     "human-key"
-  ]
+  ],
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  }
 }
