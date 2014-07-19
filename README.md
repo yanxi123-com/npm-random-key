@@ -7,27 +7,15 @@
 ## Usage for JS
 
 ```javascript
-var rand = require("generate-key");
+var rand = require("random-key");
 
-rand.generateKey(); // => wexO23UXGezfTKHc
+rand.generate(); // => wexO23UXGezfTKHc
 
 // or
 
-rand.generateKey(7); // => TShNQGc
+rand.generate(7); // => TShNQGc
 ```
 
-## Usage for Coffee-Script
-
-```coffeescript
-rand = require "generate-key"
-
-rand.generateKey() # => wexO23UXGezfTKHc
-
-# or
-
-rand.generateKey 7 # => TShNQGc
-
-```
 ## LICENSE
 
 nodejs-random-string is licensed under the BSD license.
