@@ -5,7 +5,7 @@
     $ npm install random-key
 
 ## API
-### generate(len, keys)
+### generate([len], [keys])
 Generate random string, with given length.
 * len: the length of the generated string, default is 16
 * keys: optional keys, default is base62, including: 0-9, a-z, A-Z
@@ -14,7 +14,7 @@ Generate random string, with given length.
 Generate random digits, with given length. optional keys: 0-9
 * len: the length of the generated string, default is 16
 
-### generateHumanString([len])
+### generateBase30([len])
 Generate random string that is , with given length.
 
 optional keys: 1-9, A-Z exclude(E, G, I, J, O) for human read
@@ -32,7 +32,7 @@ rand.generate(7); // => TShNQGc
 
 rand.generateDigits(5);  // => 08297
 
-rand.generateHumanString(5);  // => K5UJ1
+rand.generateBase30(5);  // => K5UJ1
 ```
 
 ## LICENSE
