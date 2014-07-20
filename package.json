@@ -1,15 +1,13 @@
 {
   "name": "random-key",
-  "version": "0.1.6",
+  "version": "0.2.1",
   "description": "Generating random strings for NodeJS",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/yanxi-com/nodejs-random-key.git",
     "type": "git"
   },
-  "dependencies": {
-    "coffee-script": "1.7.1"
-  },
+  "dependencies": {},
   "author": "yanxi",
   "license": "BSD",
   "bugs": {
