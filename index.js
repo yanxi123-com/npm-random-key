@@ -1,5 +1,7 @@
 var rn = function(max) {
-  return Math.floor((Math.random() * max));
+  var rnBytes = crypto.randomBytes(2);
+  var randomNum = rnBytes.readUInt8(0) * 256 + rnBytes.readUInt8(1);
+  return randomNum % max;
 }
 
 var digits = '0123456789'

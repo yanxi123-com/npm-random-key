@@ -6,7 +6,7 @@
 
 ## API
 ### generate([len], [keys])
-Generate random string, with given length.
+Generate cryptographically strong pseudo-random string, with given length.
 * len: the length of the generated string, default is 16
 * keys: optional keys, default is base62, including: 0-9, a-z, A-Z
 
