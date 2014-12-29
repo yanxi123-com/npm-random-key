@@ -1,3 +1,5 @@
+var crypto = require("crypto");
+
 var rn = function(max) {
   var rnBytes = crypto.randomBytes(2);
   var randomNum = rnBytes.readUInt8(0) * 256 + rnBytes.readUInt8(1);

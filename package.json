@@ -1,7 +1,7 @@
 {
   "name": "random-key",
-  "version": "0.2.1",
-  "description": "Generating random strings for NodeJS",
+  "version": "0.3.2",
+  "description": "Generating random strings (cryptographically strong) for NodeJS",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/yanxi-com/nodejs-random-key.git",
